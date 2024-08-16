@@ -1,0 +1,28 @@
+* {
+    text-decoration: none;
+    transition: .4s ease-in;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {}
+
+section {
+    min-height: 100vh !important;
+    overflow-x: hidden;
+}
+
+
+
+/* Products styling */
+#products .card .overlay {
+    visibility: hidden;
+    transition: .3s;
+}
+
+#products .card:hover .overlay {
+    visibility: visible !important;
+}
