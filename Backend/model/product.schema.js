@@ -21,6 +21,9 @@ const productSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    rate: {
+        type: Number
+    },
     quantity: {
         type: Number,
         default: 1

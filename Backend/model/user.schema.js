@@ -23,6 +23,12 @@ const userSchema = mongoose.Schema({
             ref: "products"
         }
     ],
+    order: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "orders"
+        }
+    ],
     role: {
         type: String,
         default: "buyer"
